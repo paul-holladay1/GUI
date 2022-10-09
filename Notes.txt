@@ -1,0 +1,21 @@
+- tkinter module
+    - have to import
+- Elements of window
+    - main window
+        - has labels like name
+        - input boxes
+        - radio button
+        - all forms of widgets
+- __init__ method
+    - creating instance of GUI (object) allows it to run
+- labels   
+    - tkinter.Label(self.main_window, text = 'My text')
+
+- when create elements on main window  
+    - have to use packet
+        - tells where text will appear on window
+- tkinter.mainloop()
+    - sustains window on loop until user closes it out
+
+- frames
+    -
