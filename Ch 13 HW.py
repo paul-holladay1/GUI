@@ -7,7 +7,7 @@ class PizzaGUI:
         self.main_window = tkinter.Tk()
 
         # Size of window
-        self.main_window.geometry('1000x1000')
+        self.main_window.geometry('300x500')
 
         # Title of Window
         self.main_window.title('Pizza Builder')
@@ -146,7 +146,7 @@ class PizzaGUI:
             total += 0.60
             
         # Display an info dialog box.
-        tkinter.messagebox.showinfo('Order', self.name_entry.get() + '\n' + 'Total: $' + str(total))
+        tkinter.messagebox.showinfo('Order', self.name_entry.get() + '\n' + 'Total: $' + str(format(total, '.2f')))
 
 
 # Create an instance of the 
